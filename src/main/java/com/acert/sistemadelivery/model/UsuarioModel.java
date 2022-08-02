@@ -18,10 +18,8 @@ public class UsuarioModel {
 	@NotNull
 	private String nome;
 	@NotNull
-	@Email
 	private String usuario;
 	@NotNull
-	@Size(min = 5)
 	private String senha;
 	
 	
